@@ -1,0 +1,27 @@
+h2#mainHeader{
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+
+div#matricies{
+    position: relative;
+    margin-top: 7vh;
+    left: 25%;
+}
+
+div#equation{
+    position: relative;
+    margin-top: 7vh;
+    left: 45%;
+}
+
+#equation td{
+    margin: 0 5% 0 5%;
+}
+
+
+textarea#matrix1,#matrix2{
+    background-color: aliceblue;
+    margin: 0 5vw 0 5vw;
+}
+

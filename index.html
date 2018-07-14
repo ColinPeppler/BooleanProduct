@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/booleanproduct.js"></script>
+    <title>Homepage</title>
+<body>
+</head>
+    <div id="header">
+        <h2 id="mainHeader">Boolean Matrix Multiplication Calculator</h2>
+    </div>
+    <div id="body">
+        <div id="matricies">
+                <textarea id="matrix1" rows="20" cols="40" placeholder="Matrix 1"></textarea>
+                <textarea id="matrix2" rows="20" cols="40" placeholder="Matrix 2"></textarea>
+                <input type="button" onclick="calculate()">
+        </div>
+
+        <div id="equation">
+            <table>
+                <tr>
+                    <td>
+                        <p id="matrix1equation"></p>
+                    </td>
+
+                    <td>
+                        <p id="matrix2equation"></p>
+                    </td>
+
+                    <td>
+                        <p id="finalMatrix"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
