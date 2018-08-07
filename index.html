@@ -7,14 +7,26 @@
     <title>Homepage</title>
 <body>
 </head>
+
     <div id="header">
         <h2 id="mainHeader">Boolean Matrix Multiplication Calculator</h2>
     </div>
+
     <div id="body">
-        <div id="matricies">
+
+        <div id="upper">
+        <div id="instructions">
+            <h2>Instructions</h2></br>
+            <p>1. Each element must be separated by a space </br>
+               2. The end of each row is identified by a comma ','
+            </p>
+        </div>
+
+        <div id="matrices">
                 <textarea id="matrix1" rows="20" cols="40" placeholder="Matrix 1"></textarea>
+                <input type="button" onclick="calculate()" value="Calculate">
                 <textarea id="matrix2" rows="20" cols="40" placeholder="Matrix 2"></textarea>
-                <input type="button" onclick="calculate()">
+        </div>
         </div>
 
         <div id="equation">
@@ -25,7 +37,15 @@
                     </td>
 
                     <td>
+                        <p id="booleanProductSymbol"></p>
+                    </td>
+
+                    <td>
                         <p id="matrix2equation"></p>
+                    </td>
+
+                    <td>
+                        <p id="equalSymbol"></p>
                     </td>
 
                     <td>
@@ -34,6 +54,7 @@
                 </tr>
             </table>
         </div>
+
     </div>
 </body>
 </html>

@@ -65,7 +65,9 @@ function calculate(){
     let matrix2 = stringParse(matrixString2);
     let boolPro = booleanProduct(matrix1, matrix2);
 
-    matrix1Object.innerHTML = nicerMatrix(matrix1) + " &#x2299; ";
-    matrix2Object.innerHTML = nicerMatrix(matrix2) + " = ";
+    matrix1Object.innerHTML = nicerMatrix(matrix1);
+    matrix2Object.innerHTML = nicerMatrix(matrix2);
+    document.getElementById("booleanProductSymbol").innerHTML = "&#x2299;";
+    document.getElementById("equalSymbol").innerHTML = "=";
     finalMatrixObject.innerHTML = boolPro;
 }
